@@ -453,15 +453,15 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
         } else if (filePathCallback != null) {
             filePathCallback = null;
         } else if ("sc_history".equals(action)) {
-            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"), true);
             showOverview();
             open_history.performClick();
         } else if ("sc_bookmark".equals(action)) {
-            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"), true);
             showOverview();
             open_bookmark.performClick();
         } else if ("sc_startPage".equals(action)) {
-            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"), true);
             showOverview();
             open_startPage.performClick();
         } else if (Intent.ACTION_SEND.equals(action)) {
@@ -470,7 +470,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
             String data = Objects.requireNonNull(getIntent().getData()).toString();
             addAlbum(getString(R.string.app_name), data, true);
         } else {
-            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+            addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"), true);
         }
         getIntent().setAction("");
     }
@@ -634,7 +634,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
                 showOverview();
                 break;
             case "09":
-                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"), true);
                 break;
             case "10":
                 removeAlbum(currentAlbumController);
@@ -1429,7 +1429,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
             if(!sp.getBoolean("sp_reopenLastTab", false)) {
                 doubleTapsQuit();
             }else{
-                updateAlbum(sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"));
+                updateAlbum(sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"));
                 hideOverview();
             }
         } else {
@@ -1846,10 +1846,10 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
                     showOverview();
                 } else if (position == 1) {
                     dialog_overview.cancel();
-                    addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+                    addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"), true);
                 } else if (position == 2) {
                     dialog_overview.cancel();
-                    updateAlbum(sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"));
+                    updateAlbum(sp.getString("favoriteURL", "file:///android_asset/zlatko_home.html"));
                 } else if (position == 3) {
                     removeAlbum(currentAlbumController);
                     dialog_overview.cancel();
