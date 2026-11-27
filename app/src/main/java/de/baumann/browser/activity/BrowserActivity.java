@@ -704,6 +704,12 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
                     list.add(list.size(), item_03);
                 }
 
+                final int shortcutStart = list.size();
+                list.add(new GridItem(R.drawable.icon_earth, getString(R.string.zlatko_menu_copilot), null, 0));
+                list.add(new GridItem(R.drawable.icon_preview, getString(R.string.zlatko_menu_f1), null, 0));
+                list.add(new GridItem(R.drawable.icon_history, getString(R.string.zlatko_menu_real_madrid), null, 0));
+                list.add(new GridItem(R.drawable.icon_bookmark, getString(R.string.zlatko_menu_sports_project), null, 0));
+
                 GridAdapter gridAdapter = new GridAdapter(context, list);
                 gridView.setNumColumns(1);
                 gridView.setAdapter(gridAdapter);
@@ -712,7 +718,17 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                        if (position == 0) {
+                        if (position >= shortcutStart) {
+                            String[] shortcutUrls = {
+                                    "https://github.com/zlatkomarina0-ai/ZM-AL-MODE",
+                                    "https://www.formula1.com/en/latest",
+                                    "https://www.realmadrid.com/en-US/news",
+                                    "https://github.com/zlatkomarina0-ai/ZM-AL-MODE"
+                            };
+                            menuList.cancel();
+                            updateAlbum(shortcutUrls[position - shortcutStart]);
+                            hideOverview();
+                        } else if (position == 0) {
                             menuList.cancel ();
                             final BottomSheetDialog dialogDelete = new BottomSheetDialog(context);
                             View dialogDeleteView = View.inflate(context, R.layout.dialog_action, null);
