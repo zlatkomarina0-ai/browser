@@ -722,7 +722,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
                             String[] shortcutUrls = {
                                     "https://github.com/zlatkomarina0-ai/ZM-AL-MODE",
                                     "https://www.formula1.com/en/latest",
-                                    "https://www.rezultati.com/tim/real-madrid/vesti",
+                                    "https://www.rezultati.com/tim/real-madrid/W8mj7MDD/vijesti/",
                                     "https://github.com/zlatkomarina0-ai/ZM-AL-MODE"
                             };
                             menuList.cancel();
