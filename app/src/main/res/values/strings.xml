@@ -3,7 +3,7 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">FOSS Browser</string>
+    <string name="app_name">ZLATKO Browser</string>
     <string name="app_ok">OK</string>
     <string name="app_cancel">Cancel</string>
     <string name="list_empty">List is empty</string>
@@ -53,7 +53,7 @@
     <string name="menu_shareClipboard">Copy to clipboard</string>
 
     <string name="menu_other_searchSite">Search on site</string>
-    <string name="menu_other_info">About \"FOSS Browser\"</string>
+    <string name="menu_other_info">About \"ZLATKO Browser\"</string>
     <string name="menu_other_help">Help</string>
 
     <!-- Dialog -->
@@ -77,7 +77,7 @@
     <string name="setting_title_clear_control">Data Control</string>
     <string name="setting_title_start_control">Start Control</string>
     <string name="setting_summary_clear_control">Clear your browser data or decide what data will be cleared when you leave the application.</string>
-    <string name="setting_summary_start_control">Decide which components of FOSS browser will be enabled on start.</string>
+    <string name="setting_summary_start_control">Decide which components of ZLATKO Browser will be enabled on start.</string>
 
     <string name="setting_title_search_engine">Search Engine</string>
     <string name="setting_summary_search_engine">Here you can choose your preferred search engine or set a custom one.</string>
@@ -129,9 +129,9 @@
 
 
     <!-- browser clear -->
-    <string name="data_summary">All files will be exported to the \"Android/data/de.baumann.browser/files/browser_backup/\" directory of your sd-card. This directory will be DELETED, if you uninstall \"FOSS Browser\". So make a backup regularly on a save place.</string>
+    <string name="data_summary">All files will be exported to the \"Android/data/de.baumann.browser/files/browser_backup/\" directory of your sd-card. This directory will be DELETED, if you uninstall \"ZLATKO Browser\". So make a backup regularly on a save place.</string>
     <string name="clear_title_quit">Clear on application exit</string>
-    <string name="clear_summary_quit">Every time you quit \"FOSS Browser\" all above checked data will be deleted.</string>
+    <string name="clear_summary_quit">Every time you quit \"ZLATKO Browser\" all above checked data will be deleted.</string>
     <string name="clear_title_cache">Clear Cache</string>
     <string name="clear_title_cookie">Clear Cookies</string>
     <string name="clear_title_history">Clear History</string>
@@ -152,7 +152,7 @@
     <string name="setting_filter_summary">To show the filter dialog long press on the bookmark icon in the overview. Decide which filters you will use.</string>
 
     <string name="setting_title_fav">Favorite</string>
-    <string name="setting_summary_fav">Here you can change the default website which loads on start of \"FOSS Browser\". Enter \"about:blank\" to get an emty start site.</string>
+    <string name="setting_summary_fav">Here you can change the default website which loads on start of \"ZLATKO Browser\". Enter \"about:blank\" to get an emty start site.</string>
 
     <string name="setting_title_searchEngine">Custom search engine</string>
     <string name="setting_summary_searchEngine">Here you can enter a custom search URL. Also choose \"Custom search engine\" as search provider.</string>
@@ -233,7 +233,7 @@
     <!-- Others setting -->
     <string name="setting_title_others">Others</string>
     <string name="setting_title_appSettings">App settings</string>
-    <string name="setting_summary_appSettings">Open the system app settings for \"FOSS Browser\". There you can, depending on your Android version grant permissions, clear the app data and so on.</string>
+    <string name="setting_summary_appSettings">Open the system app settings for \"ZLATKO Browser\". There you can, depending on your Android version grant permissions, clear the app data and so on.</string>
     <string name="setting_title_community">Contributing</string>
 
     <!-- Toast -->
@@ -256,10 +256,10 @@
     <string name="toast_start_download">Starting download</string>
     <string name="toast_wait_a_minute">Please wait for a moment</string>
     <string name="toast_webview_forward">Can\'t load next site</string>
-    <string name="toast_permission_sdCard">\"FOSS Browser\" needs the permission to \"read and write on your storage\". This is needed to download files, taking screenshots and making backups of your data.</string>
-    <string name="toast_permission_loc">\"FOSS Browser\" needs the permission to \"access your location\". This is requested from some websites for example when they offer some kind of navigation.</string>
-    <string name="toast_restart">You must restart \"FOSS Browser\" to apply changes. Close now?</string>
-    <string name="toast_quit">Do you want to quit \"FOSS Browser\"?</string>
+    <string name="toast_permission_sdCard">\"ZLATKO Browser\" needs the permission to \"read and write on your storage\". This is needed to download files, taking screenshots and making backups of your data.</string>
+    <string name="toast_permission_loc">\"ZLATKO Browser\" needs the permission to \"access your location\". This is requested from some websites for example when they offer some kind of navigation.</string>
+    <string name="toast_restart">You must restart \"ZLATKO Browser\" to apply changes. Close now?</string>
+    <string name="toast_quit">Do you want to quit \"ZLATKO Browser\"?</string>
     <string name="toast_close_tab">Do you want to close current tab?</string>
     <string name="toast_downloadComplete">Download complete. Open file manager?</string>
     <string name="toast_unsecured">Website uses an unsecured connection (\"http\"). Try a secure connection (\"https\")?</string>
@@ -294,9 +294,9 @@
 
     <string name="changelog_dialog">
 
-        Your language isn\'t supported yet? You want to translate FOSS Browser? Or make improvements to existing translations? Feel free to join us on Crowdin: https://crowdin.com/project/foss-browser.&lt;br&gt;&lt;br&gt;
+        Your language isn\'t supported yet? You want to translate ZLATKO Browser? Or make improvements to existing translations? Feel free to join us on Crowdin: https://crowdin.com/project/foss-browser.&lt;br&gt;&lt;br&gt;
 
-        &lt;b>On the following sites you have access to all important information about \"FOSS Browser\". Please read also the help dialog within the app.&lt;/b>&lt;br>&lt;br>
+        &lt;b>On the following sites you have access to all important information about \"ZLATKO Browser\". Please read also the help dialog within the app.&lt;/b>&lt;br>&lt;br>
 
         \u25AA &lt;i>Project site:&lt;/i> https://github.com/scoute-dich/Browser&lt;br>
         \u25AA &lt;i>Changelog:&lt;/i> https://github.com/scoute-dich/browser/blob/master/CHANGELOG.md&lt;br>
@@ -317,11 +317,11 @@
         &lt;i&gt;https://crowdin.com/project/foss-browser&lt;/i&gt;&lt;br&gt;&lt;br&gt;
 
         &lt;b>XDA-thread:&lt;/b>&lt;br>
-        XDA is a great community for developers and smartphone enthusiasts. Here you can report issues, ask for new features and everything other related to \"FOSS Browser\".&lt;br>
+        XDA is a great community for developers and smartphone enthusiasts. Here you can report issues, ask for new features and everything other related to \"ZLATKO Browser\".&lt;br>
         &lt;i>https://forum.xda-developers.com/android/apps-games/app-browser-t3500091&lt;/i>&lt;br>&lt;br>
 
         &lt;b>Github:&lt;/b>&lt;br>
-        On Github you can see the source code of \"FOSS Browser\". This is the more technical solution: open issues, ask for new features or even help developing or translating.&lt;br>
+        On Github you can see the source code of \"ZLATKO Browser\". This is the more technical solution: open issues, ask for new features or even help developing or translating.&lt;br>
         &lt;i>https://github.com/scoute-dich/browser&lt;/i>&lt;br>&lt;br>&lt;br>
 
         &lt;i>Following people contributed at this project. If I have forgotten anybody, please contact me:&lt;/i>
