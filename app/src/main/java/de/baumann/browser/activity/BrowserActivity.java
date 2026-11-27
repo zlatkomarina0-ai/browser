@@ -720,10 +720,10 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
 
                         if (position >= shortcutStart) {
                             String[] shortcutUrls = {
-                                    "https://chatgpt.com/",
+                                    "https://zlatkomarina0-ai.github.io/ZM-AL-MODE/",
                                     "https://www.formula1.com/en/latest",
                                     "https://www.rezultati.com/tim/real-madrid/W8mj7MDD/vijesti/",
-                                    "https://github.com/zlatkomarina0-ai/ZM-AL-MODE"
+                                    "https://zlatkomarina0-ai.github.io/ZM-AL-MODE/"
                             };
                             menuList.cancel();
                             updateAlbum(shortcutUrls[position - shortcutStart]);
