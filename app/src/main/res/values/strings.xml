@@ -43,6 +43,10 @@
     <string name="menu_sc">Shortcut on home screen</string>
     <string name="menu_sort">Sort by …</string>
     <string name="menu_filter">Filter by …</string>
+    <string name="zlatko_menu_copilot">ZLATKO AI kopilot</string>
+    <string name="zlatko_menu_f1">Vesti F1</string>
+    <string name="zlatko_menu_real_madrid">Vesti Real Madrid</string>
+    <string name="zlatko_menu_sports_project">Sportskiot proekt</string>
 
     <string name="menu_share_link">Share link</string>
 
